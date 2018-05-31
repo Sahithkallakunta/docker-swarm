@@ -42,7 +42,7 @@ params = {
         "value": slurp("master.yml")
     },
     "agentCount": {
-        "value": int(environ.get('AGENT_COUNT', 2))
+        "value": int(environ.get('AGENT_COUNT', 1))
     },
     "agentCustomData": {
         "value": slurp("agent.yml")
